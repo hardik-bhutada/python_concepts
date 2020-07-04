@@ -94,4 +94,4 @@ class Battery():
 tesla = ElectricCar('tesla', 'T6', 2002)
 tesla.increment_odometer(88)
 tesla.update_odometer(12)
-tesla.battery.describe_battery() # Calling battery's method describe_battery
+tesla.battery.describe_battery() # Calling battery class method describe_battery()
